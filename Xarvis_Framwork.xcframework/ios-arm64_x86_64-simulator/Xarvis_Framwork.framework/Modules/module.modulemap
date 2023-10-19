@@ -1,0 +1,11 @@
+framework module Xarvis_Framwork {
+  umbrella header "Xarvis_Framwork.h"
+  export *
+
+  module * { export * }
+}
+
+module Xarvis_Framwork.Swift {
+  header "Xarvis_Framwork-Swift.h"
+  requires objc
+}
