@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.description      = "자비스 오퍼월"
   s.author           = "kim.daehee@cashwalk.io"
-  s.source           = { :git => "https://github.com/thezooom/Xarvis_iOS", :tag => spec.version.to_s }
+  s.source           = { :git => "https://github.com/thezooom/Xarvis_iOS", :tag => s.version.to_s }
 
   s.frameworks       = 'Foundation', 'UIKit', 'AdSupport','WebKit', 'AppTrackingTransparency'
 
