@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Xarvis_Framwork
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Xarvis_Framwork
 import AdSupport
 import AppTrackingTransparency
 import Foundation
@@ -15,20 +14,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-@objc @_inheritsConvenienceInitializers @available(*, deprecated, renamed: "XarvisView", message: "0.2.1버전에서 삭제 예정입니다, XarvisView를 사용해 주세요")
-final public class Xarvis_iOS : ObjectiveC.NSObject {
-  @objc deinit
-  @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-  @objc override dynamic public init()
-}
-@available(*, deprecated, renamed: "XarvisView", message: "0.2.1버전에서 삭제 예정입니다.")
-extension Xarvis_Framwork.Xarvis_iOS : WebKit.WKScriptMessageHandler {
-  @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
-}
-@available(*, deprecated, message: "0.2.1버전에서 삭제 예정입니다.")
-extension Xarvis_Framwork.Xarvis_iOS {
-  final public func makeXarvisView(mediaUserId: Swift.String, mediaUUID: Swift.String, parentView: UIKit.UIViewController, isTestMode: Swift.Bool = false, isShowProgress: Swift.Bool = true)
-}
 @objc public class LeakAvoider : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
   weak public var avoiderDelegate: (any WebKit.WKScriptMessageHandler)?
   public init(avoiderDelegate: any WebKit.WKScriptMessageHandler)
@@ -41,17 +26,24 @@ extension Xarvis_Framwork.XarvisView : WebKit.WKScriptMessageHandler {
 public protocol XarvisViewDelegate : AnyObject {
   func showAlertMessage(message: Swift.String)
 }
+public protocol XarvisChannel : ObjectiveC.NSObjectProtocol {
+  func getEvent(eventname: Swift.String, params: [Swift.String : Any]?)
+}
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class XarvisView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) final public var testMode: Swift.Bool
   @_Concurrency.MainActor(unsafe) final public var isShowProgress: Swift.Bool
+  @_Concurrency.MainActor(unsafe) final public var progressColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) final public var queryString: Swift.String
   @_Concurrency.MainActor(unsafe) weak final public var delegate: (any Xarvis_Framwork.XarvisViewDelegate)?
+  @_Concurrency.MainActor(unsafe) weak final public var xarvisChannel: (any Xarvis_Framwork.XarvisChannel)?
   @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect = CGRect(x: 0, y: 0, width: 0, height: 0), mediaUserId: Swift.String, mediaUUID: Swift.String)
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class XarvisViewController : UIKit.UIViewController, Xarvis_Framwork.XarvisViewDelegate {
-  @_Concurrency.MainActor(unsafe) public init(mediaUserId: Swift.String, mediaUUID: Swift.String, isTestMode: Swift.Bool = false, isShowProgress: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public init(mediaUserId: Swift.String, mediaUUID: Swift.String, isTestMode: Swift.Bool = false, isShowProgress: Swift.Bool = true, progressColor: UIKit.UIColor = .blue, queryString: Swift.String = "")
   @_Concurrency.MainActor(unsafe) public func showAlertMessage(message: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func connectChannel(delegate: any Xarvis_Framwork.XarvisChannel)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc deinit
 }

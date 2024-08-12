@@ -34,347 +34,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Xarvis_Framwork"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "Xarvis_Framwork"
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "Xarvis_Framwork"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "Xarvis_Framwork"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Xarvis_iOS",
-        "printedName": "Xarvis_iOS",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "observeValue",
-            "printedName": "observeValue(forKeyPath:of:change:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NSKeyValueChangeKey",
-                        "printedName": "Foundation.NSKeyValueChangeKey",
-                        "usr": "c:@T@NSKeyValueChangeKey"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.UnsafeMutableRawPointer?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UnsafeMutableRawPointer",
-                    "printedName": "Swift.UnsafeMutableRawPointer",
-                    "usr": "s:Sv"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Xarvis_Framwork@objc(cs)Xarvis_iOS(im)observeValueForKeyPath:ofObject:change:context:",
-            "mangledName": "$s15Xarvis_Framwork0A4_iOSC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtF",
-            "moduleName": "Xarvis_Framwork",
-            "overriding": true,
-            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Xarvis_iOS",
-                "printedName": "Xarvis_Framwork.Xarvis_iOS",
-                "usr": "c:@M@Xarvis_Framwork@objc(cs)Xarvis_iOS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Xarvis_Framwork@objc(cs)Xarvis_iOS(im)init",
-            "mangledName": "$s15Xarvis_Framwork0A4_iOSCACycfc",
-            "moduleName": "Xarvis_Framwork",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "userContentController",
-            "printedName": "userContentController(_:didReceive:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKUserContentController",
-                "printedName": "WebKit.WKUserContentController",
-                "usr": "c:objc(cs)WKUserContentController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKScriptMessage",
-                "printedName": "WebKit.WKScriptMessage",
-                "usr": "c:objc(cs)WKScriptMessage"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Xarvis_Framwork@objc(cs)Xarvis_iOS(im)userContentController:didReceiveScriptMessage:",
-            "mangledName": "$s15Xarvis_Framwork0A4_iOSC21userContentController_10didReceiveySo06WKUsereF0C_So15WKScriptMessageCtF",
-            "moduleName": "Xarvis_Framwork",
-            "objc_name": "userContentController:didReceiveScriptMessage:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "makeXarvisView",
-            "printedName": "makeXarvisView(mediaUserId:mediaUUID:parentView:isTestMode:isShowProgress:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15Xarvis_Framwork0A4_iOSC04makeA4View11mediaUserId0F4UUID06parentE010isTestMode0K12ShowProgressySS_SSSo16UIViewControllerCS2btF",
-            "mangledName": "$s15Xarvis_Framwork0A4_iOSC04makeA4View11mediaUserId0F4UUID06parentE010isTestMode0K12ShowProgressySS_SSSo16UIViewControllerCS2btF",
-            "moduleName": "Xarvis_Framwork",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Xarvis_Framwork@objc(cs)Xarvis_iOS",
-        "mangledName": "$s15Xarvis_Framwork0A4_iOSC",
-        "moduleName": "Xarvis_Framwork",
-        "deprecated": true,
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "Available",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Xarvis_Framwork"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Xarvis_Framwork"
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "Xarvis_Framwork"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "Xarvis_Framwork"
-      },
-      {
-        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -400,7 +59,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "WebKit.WKScriptMessageHandler?"
+                "printedName": "(any WebKit.WKScriptMessageHandler)?"
               }
             ],
             "declKind": "Var",
@@ -424,12 +83,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "WebKit.WKScriptMessageHandler?",
+                    "printedName": "(any WebKit.WKScriptMessageHandler)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WKScriptMessageHandler",
-                        "printedName": "WebKit.WKScriptMessageHandler",
+                        "printedName": "any WebKit.WKScriptMessageHandler",
                         "usr": "c:objc(pl)WKScriptMessageHandler"
                       }
                     ],
@@ -456,12 +115,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "WebKit.WKScriptMessageHandler?",
+                    "printedName": "(any WebKit.WKScriptMessageHandler)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "WKScriptMessageHandler",
-                        "printedName": "WebKit.WKScriptMessageHandler",
+                        "printedName": "any WebKit.WKScriptMessageHandler",
                         "usr": "c:objc(pl)WKScriptMessageHandler"
                       }
                     ],
@@ -509,7 +168,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WKScriptMessageHandler",
-                "printedName": "WebKit.WKScriptMessageHandler",
+                "printedName": "any WebKit.WKScriptMessageHandler",
                 "usr": "c:objc(pl)WKScriptMessageHandler"
               }
             ],
@@ -785,6 +444,77 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "XarvisChannel",
+        "printedName": "XarvisChannel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getEvent",
+            "printedName": "getEvent(eventname:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15Xarvis_Framwork0A7ChannelP8getEvent9eventname6paramsySS_SDySSypGSgtF",
+            "mangledName": "$s15Xarvis_Framwork0A7ChannelP8getEvent9eventname6paramsySS_SDySSypGSgtF",
+            "moduleName": "Xarvis_Framwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : Xarvis_Framwork.XarvisChannel>",
+            "sugared_genericSig": "<Self where Self : Xarvis_Framwork.XarvisChannel>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15Xarvis_Framwork0A7ChannelP",
+        "mangledName": "$s15Xarvis_Framwork0A7ChannelP",
+        "moduleName": "Xarvis_Framwork",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "XarvisView",
         "printedName": "XarvisView",
         "children": [
@@ -805,10 +535,10 @@
             "mangledName": "$s15Xarvis_Framwork0A4ViewC8testModeSbvp",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -903,10 +633,10 @@
             "mangledName": "$s15Xarvis_Framwork0A4ViewC14isShowProgressSbvp",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -986,13 +716,209 @@
           },
           {
             "kind": "Var",
+            "name": "progressColor",
+            "printedName": "progressColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15Xarvis_Framwork0A4ViewC13progressColorSo7UIColorCvp",
+            "mangledName": "$s15Xarvis_Framwork0A4ViewC13progressColorSo7UIColorCvp",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC13progressColorSo7UIColorCvg",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC13progressColorSo7UIColorCvg",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC13progressColorSo7UIColorCvs",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC13progressColorSo7UIColorCvs",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC13progressColorSo7UIColorCvM",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC13progressColorSo7UIColorCvM",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryString",
+            "printedName": "queryString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15Xarvis_Framwork0A4ViewC11queryStringSSvp",
+            "mangledName": "$s15Xarvis_Framwork0A4ViewC11queryStringSSvp",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC11queryStringSSvg",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC11queryStringSSvg",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC11queryStringSSvs",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC11queryStringSSvs",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC11queryStringSSvM",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC11queryStringSSvM",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "delegate",
             "printedName": "delegate",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Xarvis_Framwork.XarvisViewDelegate?"
+                "printedName": "(any Xarvis_Framwork.XarvisViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -1019,12 +945,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Xarvis_Framwork.XarvisViewDelegate?",
+                    "printedName": "(any Xarvis_Framwork.XarvisViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "XarvisViewDelegate",
-                        "printedName": "Xarvis_Framwork.XarvisViewDelegate",
+                        "printedName": "any Xarvis_Framwork.XarvisViewDelegate",
                         "usr": "s:15Xarvis_Framwork0A12ViewDelegateP"
                       }
                     ],
@@ -1054,12 +980,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Xarvis_Framwork.XarvisViewDelegate?",
+                    "printedName": "(any Xarvis_Framwork.XarvisViewDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "XarvisViewDelegate",
-                        "printedName": "Xarvis_Framwork.XarvisViewDelegate",
+                        "printedName": "any Xarvis_Framwork.XarvisViewDelegate",
                         "usr": "s:15Xarvis_Framwork0A12ViewDelegateP"
                       }
                     ],
@@ -1090,6 +1016,121 @@
                 "declKind": "Accessor",
                 "usr": "s:15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvM",
                 "mangledName": "$s15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvM",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "xarvisChannel",
+            "printedName": "xarvisChannel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Xarvis_Framwork.XarvisChannel)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvp",
+            "mangledName": "$s15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvp",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Xarvis_Framwork.XarvisChannel)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XarvisChannel",
+                        "printedName": "any Xarvis_Framwork.XarvisChannel",
+                        "usr": "s:15Xarvis_Framwork0A7ChannelP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvg",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvg",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Xarvis_Framwork.XarvisChannel)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XarvisChannel",
+                        "printedName": "any Xarvis_Framwork.XarvisChannel",
+                        "usr": "s:15Xarvis_Framwork0A7ChannelP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvs",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvs",
+                "moduleName": "Xarvis_Framwork",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvM",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvM",
                 "moduleName": "Xarvis_Framwork",
                 "implicit": true,
                 "declAttributes": [
@@ -1413,7 +1454,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(mediaUserId:mediaUUID:isTestMode:isShowProgress:)",
+            "printedName": "init(mediaUserId:mediaUUID:isTestMode:isShowProgress:progressColor:queryString:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1446,11 +1487,25 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15Xarvis_Framwork0A14ViewControllerC11mediaUserId0E4UUID10isTestMode0I12ShowProgressACSS_SSS2btcfc",
-            "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC11mediaUserId0E4UUID10isTestMode0I12ShowProgressACSS_SSS2btcfc",
+            "usr": "s:15Xarvis_Framwork0A14ViewControllerC11mediaUserId0E4UUID10isTestMode0I12ShowProgress13progressColor11queryStringACSS_SSS2bSo7UIColorCSStcfc",
+            "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC11mediaUserId0E4UUID10isTestMode0I12ShowProgress13progressColor11queryStringACSS_SSS2bSo7UIColorCSStcfc",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
               "Custom",
@@ -1479,6 +1534,34 @@
             "declKind": "Func",
             "usr": "s:15Xarvis_Framwork0A14ViewControllerC16showAlertMessage7messageySS_tF",
             "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC16showAlertMessage7messageySS_tF",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectChannel",
+            "printedName": "connectChannel(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XarvisChannel",
+                "printedName": "any Xarvis_Framwork.XarvisChannel",
+                "usr": "s:15Xarvis_Framwork0A7ChannelP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15Xarvis_Framwork0A14ViewControllerC14connectChannel8delegateyAA0aF0_p_tF",
+            "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC14connectChannel8delegateyAA0aF0_p_tF",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
               "Custom",
@@ -1646,17 +1729,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       }
@@ -1664,363 +1747,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 560,
-      "length": 26,
-      "value": "\"Invalid POST string : %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 588,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 618,
-      "length": 27,
-      "value": "\"Unable to get POST string\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 751,
-      "length": 11,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 761,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 831,
-      "length": 3,
-      "value": "\"&\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 816,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 848,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 879,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 910,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 950,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1164,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 1657,
-      "length": 23,
-      "value": "\"ATTracking Authorized\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2170,
-      "length": 35,
-      "value": "\"application\/x-www-form-urlencoded\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2227,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2275,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2340,
-      "length": 14,
-      "value": "\"CFBundleName\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2416,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2581,
-      "length": 38,
-      "value": "\"00000000-0000-0000-0000-000000000000\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2666,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2700,
-      "length": 17,
-      "value": "\"platformVersion\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2746,
-      "length": 6,
-      "value": "\"idfa\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2839,
-      "length": 13,
-      "value": "\"deviceModel\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2894,
-      "length": 17,
-      "value": "\"deviceOsVersion\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2957,
-      "length": 13,
-      "value": "\"mediaUserId\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 2997,
-      "length": 11,
-      "value": "\"mediaUUID\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 3093,
-      "length": 42,
-      "value": "\"[Xarvis_iOS] POST String:: \""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 3134,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3254,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3756,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3821,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 4254,
-      "length": 21,
-      "value": "\"navigator.userAgent\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4630,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5178,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5362,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "FloatLiteral",
-      "offset": 6166,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "FloatLiteral",
-      "offset": 6235,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 6644,
-      "length": 45,
-      "value": "\"[Xarvis_iOS] message.body:: \""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 6688,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 6705,
-      "length": 45,
-      "value": "\"[Xarvis_iOS] message.name:: \""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 6749,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 6986,
-      "length": 33,
-      "value": "\"[Xarvis_iOS] Invaild URL Scheme\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "Dictionary",
-      "offset": 7111,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 7175,
-      "length": 47,
-      "value": "\"window.__OFFERWALL__.getIsAppInstall(\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 7219,
-      "length": 1,
-      "value": "\");\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 7648,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 7661,
-      "length": 35,
-      "value": "\"유효하지 않은 URL입니다.\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7799,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 7920,
-      "length": 32,
-      "value": "\"message.name = \""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/Xarvis-Old.swift",
-      "kind": "StringLiteral",
-      "offset": 7951,
-      "length": 2,
-      "value": "\"\""
-    },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
       "kind": "StringLiteral",
@@ -2041,34 +1767,6 @@
       "offset": 129,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/MakeXarvisView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 725,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Old\/MakeXarvisView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 763,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/LeakAvoider.swift",
-      "kind": "StringLiteral",
-      "offset": 968,
-      "length": 24,
-      "value": "\"LeakAvoider class init\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/LeakAvoider.swift",
-      "kind": "StringLiteral",
-      "offset": 1082,
-      "length": 26,
-      "value": "\"LeakAvoider class deinit\""
     },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/LeakAvoider.swift",
@@ -2099,506 +1797,86 @@
       "value": "\"https:\/\/web.xarvis.kr\/offerwall\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Platform.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 38,
-      "value": "\"29519153-525e-4790-84aa-16f84a012c33\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/Platform.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 38,
-      "value": "\"0d756348-cd91-4081-8672-2385b7c19834\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 277,
-      "length": 18,
-      "value": "\"message.name: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 354,
-      "length": 18,
-      "value": "\"message.body: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 374,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 390,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 637,
-      "length": 24,
-      "value": "\"Invaild URL Scheme: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 35,
-      "value": "\"유효하지 않은 URL입니다.\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "Dictionary",
-      "offset": 868,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 932,
-      "length": 47,
-      "value": "\"window.__OFFERWALL__.getIsAppInstall(\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 976,
-      "length": 1,
-      "value": "\");\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1098,
-      "length": 37,
-      "value": "\"shared.open, evaluateJavaScript: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1137,
-      "length": 8,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1144,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1426,
-      "length": 13,
-      "value": "\"Invaild URL\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1493,
-      "length": 35,
-      "value": "\"유효하지 않은 URL입니다.\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1675,
-      "length": 40,
-      "value": "\"message is not include XarvisWebScript\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1764,
-      "length": 18,
-      "value": "\"message.name: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1845,
-      "length": 18,
-      "value": "\"message.body: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1865,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/WebKit\/Xarvis+WKMessageHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1881,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2013,
+      "offset": 2297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2182,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2825,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2831,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2841,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2852,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 2995,
-      "length": 23,
-      "value": "\"XarvisView class init\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 3255,
-      "length": 8,
-      "value": "\"deinit\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3310,
+      "offset": 2466,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "StringLiteral",
-      "offset": 3510,
-      "length": 31,
-      "value": "\"init has not been implemented\""
+      "offset": 2737,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3317,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3327,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3338,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "StringLiteral",
-      "offset": 3562,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 3849,
-      "length": 47,
-      "value": "\"trackingAuthorizationStatus != .notDetermined\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 4205,
-      "length": 55,
-      "value": "\"requestTrackingAuthorization(), ATTracking Authorized\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 4645,
-      "length": 14,
-      "value": "\"testMode: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 4672,
-      "length": 6,
-      "value": "\"true\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 4681,
-      "length": 7,
-      "value": "\"false\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 4888,
-      "length": 35,
-      "value": "\"application\/x-www-form-urlencoded\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 4945,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 4993,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5066,
-      "length": 14,
-      "value": "\"CFBundleName\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5142,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5341,
-      "length": 38,
-      "value": "\"00000000-0000-0000-0000-000000000000\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5434,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5468,
-      "length": 17,
-      "value": "\"platformVersion\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5514,
-      "length": 6,
-      "value": "\"idfa\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5607,
-      "length": 13,
-      "value": "\"deviceModel\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5662,
-      "length": 17,
-      "value": "\"deviceOsVersion\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5725,
-      "length": 13,
-      "value": "\"mediaUserId\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5778,
-      "length": 11,
-      "value": "\"mediaUUID\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 5922,
-      "length": 18,
-      "value": "\"POST String:: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6362,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6427,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 6531,
-      "length": 38,
-      "value": "\"XarvisWebScript.allCases.forEach: %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 7087,
-      "length": 21,
-      "value": "\"navigator.userAgent\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 7381,
-      "length": 16,
-      "value": "\"wkWebview.load\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7693,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8360,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 9092,
-      "length": 32,
-      "value": "\"observeValue() in keyPath : %s\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 9137,
-      "length": 11,
-      "value": "\"nil value\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "FloatLiteral",
-      "offset": 9261,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "FloatLiteral",
-      "offset": 9330,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 1873,
+      "offset": 2057,
       "length": 10,
       "value": "\"Xarvis_Framwork.XarvisView\""
     },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1354,
+      "offset": 1638,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1392,
+      "offset": 1676,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1674,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
+      "offset": 1752,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2106,
-      "length": 7,
-      "value": "\"Error\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2212,
-      "length": 8,
-      "value": "\"확인\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2261,
-      "length": 12,
-      "value": "\"yes 클릭\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2327,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3245,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 591,
+      "offset": 660,
       "length": 20,
       "value": "\"Xarvis_Framwork.XarvisViewController\""
     }
