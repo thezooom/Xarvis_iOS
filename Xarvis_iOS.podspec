@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = 'Xarvis_iOS'
-  s.version          = '0.2.9'
+  s.version          = '0.3.0'
   s.summary          = 'Xarvis_Framwork.xcframework'
   s.homepage         = 'https://github.com/thezooom/Xarvis_iOS'
 
   s.description      = "자비스 오퍼월"
-  s.author           = "kim.daehee@cashwalk.io"
+  s.author           = "kim.minseok@cashwalk.io"
   s.source           = { :git => "https://github.com/thezooom/Xarvis_iOS", :tag => s.version.to_s }
 
   s.frameworks       = 'Foundation', 'UIKit', 'AdSupport','WebKit', 'AppTrackingTransparency'
