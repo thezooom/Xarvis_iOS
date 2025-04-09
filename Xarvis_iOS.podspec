@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Xarvis_iOS'
-  s.version          = '0.4.1'
+  s.version          = '0.4.12'
   s.summary          = 'Xarvis_Framwork.xcframework'
   s.homepage         = 'https://github.com/thezooom/Xarvis_iOS'
 
@@ -9,8 +9,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/thezooom/Xarvis_iOS", :tag => s.version.to_s }
 
   s.frameworks       = 'Foundation', 'UIKit', 'AdSupport','WebKit', 'AppTrackingTransparency'
-  s.dependency       'SnapKit'
-  s.dependency       'Then'
 
   s.platform         = :ios, "12.0"
   s.ios.deployment_target = '12.0'

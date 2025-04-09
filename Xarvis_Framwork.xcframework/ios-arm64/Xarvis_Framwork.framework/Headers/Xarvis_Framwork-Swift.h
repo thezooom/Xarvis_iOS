@@ -374,6 +374,12 @@ SWIFT_CLASS("_TtC15Xarvis_Framwork10XarvisView")
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
 
+@class WKWebView;
+
+@interface XarvisView (SWIFT_EXTENSION(Xarvis_Framwork)) <WKNavigationDelegate>
+- (void)webViewWebContentProcessDidTerminate:(WKWebView * _Nonnull)webView;
+@end
+
 
 
 @class NSBundle;

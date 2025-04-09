@@ -6,9 +6,7 @@ import AdSupport
 import AppTrackingTransparency
 import Foundation
 import OSLog
-import SnapKit
 import Swift
-import Then
 import UIKit
 import WebKit
 @_exported import Xarvis_Framwork
@@ -17,13 +15,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-public enum XarvisEventNameType {
-  case showAlertMessage
-  case joinButtonClick
-  case shouldDisableTopTab(Swift.Bool)
-  case xarvisError
-  case uknown(Swift.String)
-}
 public protocol XarvisChannel : ObjectiveC.NSObjectProtocol {
   func handleLogEvent(key: Swift.String, parameters: [Swift.String : Any]?)
   func handleEvent(key: Xarvis_Framwork.XarvisEventNameType, value: Any)
@@ -37,6 +28,13 @@ extension Xarvis_Framwork.XarvisChannel {
 public protocol XarvisViewDelegate : AnyObject {
   func showAlertMessage(message: Swift.String)
 }
+public enum XarvisEventNameType {
+  case showAlertMessage
+  case joinButtonClick
+  case shouldDisableTopTab(Swift.Bool)
+  case xarvisError
+  case uknown(Swift.String)
+}
 @objc @_Concurrency.MainActor @preconcurrency public class LeakAvoider : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor @preconcurrency weak public var avoiderDelegate: (any WebKit.WKScriptMessageHandler)?
   @_Concurrency.MainActor @preconcurrency public init(avoiderDelegate: any WebKit.WKScriptMessageHandler)
@@ -45,9 +43,6 @@ public protocol XarvisViewDelegate : AnyObject {
 }
 public struct XarvisMoneyLiveAsset {
   public init(cashImage: UIKit.UIImage?, closeMarkImage: UIKit.UIImage?, errorViewImage: UIKit.UIImage?)
-}
-extension Xarvis_Framwork.XarvisView : WebKit.WKScriptMessageHandler {
-  @_Concurrency.MainActor @preconcurrency @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class XarvisView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency final public var testMode: Swift.Bool
@@ -64,8 +59,14 @@ extension Xarvis_Framwork.XarvisView : WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor @preconcurrency weak final public var channel: (any Xarvis_Framwork.XarvisChannel)?
   @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect = CGRect(x: 0, y: 0, width: 0, height: 0), mediaUserId: Swift.String, mediaUUID: Swift.String)
   @objc deinit
-  @_Concurrency.MainActor @preconcurrency final public func loadWebView()
+  @_Concurrency.MainActor @preconcurrency final public func loadWebView(allowQuery: Swift.Bool = true)
   @_Concurrency.MainActor @preconcurrency @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+}
+extension Xarvis_Framwork.XarvisView : WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor @preconcurrency @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+extension Xarvis_Framwork.XarvisView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class XarvisViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public init(mediaUserId: Swift.String, mediaUUID: Swift.String, isTestMode: Swift.Bool = false, isShowProgress: Swift.Bool = true, showBroadcast: Swift.Bool = false, progressColor: UIKit.UIColor = .blue, queryString: Swift.String = "", postBody: [Swift.String : Swift.String] = [:])

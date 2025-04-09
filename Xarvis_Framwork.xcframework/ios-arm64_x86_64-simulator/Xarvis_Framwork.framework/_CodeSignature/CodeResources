@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Xarvis_Framwork-Swift.h</key>
 		<data>
-		TpzGs8rqbt1nj9mCLUOz11tjIow=
+		ohEm0neCjOyTR5BWAjDvw0YVbDc=
 		</data>
 		<key>Headers/Xarvis_Framwork.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		EWNKv00gZOt0H9B0MQ1wfOKEg7g=
+		90SGaRDdd+0tUyYw5n4XwtAjWjg=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NOPlMkiPgi55Ovv1u+cC+7YnChk=
+		k4iSz3EWunFLC6guPGs5pz7zs1Y=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NOPlMkiPgi55Ovv1u+cC+7YnChk=
+		k4iSz3EWunFLC6guPGs5pz7zs1Y=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ylHgHzzZFV2jafhAVBgJY7W9Um0=
+		cJLlemkYRYhRLVl741bUhygLlXU=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EWNKv00gZOt0H9B0MQ1wfOKEg7g=
+		90SGaRDdd+0tUyYw5n4XwtAjWjg=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MVrirLxa6FVxO8EKMEa+njts78U=
+		WU9AitphVzpUZuKo0qMghg/LELI=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MVrirLxa6FVxO8EKMEa+njts78U=
+		WU9AitphVzpUZuKo0qMghg/LELI=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Lp5OeL9jzkLYXN6v37TXojLIoM4=
+		S6vIvGokvx+iK9Xv/sAsfARJUbs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PyB891GLSIymPo8xfQuzWfhY58pQzC2Tl2r2pwU9qMU=
+			JbAHohiEaDREHdakQYZKwAIze+xwZflBH0mmV5aMZWs=
 			</data>
 		</dict>
 		<key>Headers/Xarvis_Framwork.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j8yHsLdNuA/Gph2GOLtnKA9Xpw9zfpGvOMHdjWXI2l8=
+			CViBuzXdcl3KgxKyW6aewEeb3JLMu4XPjrWoctu6znM=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e7FkTG0Wh7UrDh96T4jGAtaT/iiolBplEirgFS0pd+k=
+			UIHdXE/b1ovpVoZFyIN3cv07+NlOWPYrqEsO8lF4enU=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e7FkTG0Wh7UrDh96T4jGAtaT/iiolBplEirgFS0pd+k=
+			UIHdXE/b1ovpVoZFyIN3cv07+NlOWPYrqEsO8lF4enU=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qoOEZwFbqSYwC7lUeofb9pqDLwnbr5fYbnD2MrmWo5g=
+			tGHZD3OZwuuLfHWQGF2GOgrXCAScEg/mZ/DXp37HtJI=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j8yHsLdNuA/Gph2GOLtnKA9Xpw9zfpGvOMHdjWXI2l8=
+			CViBuzXdcl3KgxKyW6aewEeb3JLMu4XPjrWoctu6znM=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6vVQyRXzMLAl2HDX5/X0r6RsqpFdwAQO6mMdmLjYDdA=
+			2Ufs0oTV4uOOPZYfcHv6+Hrd3AEuKz+dlF6rOXm33js=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6vVQyRXzMLAl2HDX5/X0r6RsqpFdwAQO6mMdmLjYDdA=
+			2Ufs0oTV4uOOPZYfcHv6+Hrd3AEuKz+dlF6rOXm33js=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GN+iD8QedXFnX1yTQrTSFlXAq0SdSAoq6cBCtpPoMoo=
+			8Me7BGA1/SWdHBUveRjDUluUdOotbF2AJCwzz10t5nc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
