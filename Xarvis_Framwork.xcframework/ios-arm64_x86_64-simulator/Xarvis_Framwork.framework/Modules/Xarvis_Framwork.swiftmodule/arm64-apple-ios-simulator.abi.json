@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "Xarvis_Framwork",
+    "printedName": "Xarvis_Framwork",
     "children": [
       {
         "kind": "Import",
@@ -68,6 +68,8 @@
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
@@ -177,6 +179,8 @@
             "mangledName": "$s15Xarvis_Framwork11LeakAvoiderC15avoiderDelegateACSo22WKScriptMessageHandler_p_tcfc",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -211,6 +215,8 @@
             "objc_name": "userContentController:didReceiveScriptMessage:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -237,6 +243,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "Override"
             ],
             "init_kind": "Designated"
@@ -247,6 +255,8 @@
         "mangledName": "$s15Xarvis_Framwork11LeakAvoiderC",
         "moduleName": "Xarvis_Framwork",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl",
           "RawDocComment",
           "ObjC"
@@ -256,6 +266,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -304,6 +328,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -365,6 +396,286 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Xarvis_Framwork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XarvisEventNameType",
+        "printedName": "XarvisEventNameType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "showAlertMessage",
+            "printedName": "showAlertMessage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Xarvis_Framwork.XarvisEventNameType.Type) -> Xarvis_Framwork.XarvisEventNameType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XarvisEventNameType",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                    "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XarvisEventNameType",
+                        "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                        "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15Xarvis_Framwork0A13EventNameTypeO16showAlertMessageyA2CmF",
+            "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO16showAlertMessageyA2CmF",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "joinButtonClick",
+            "printedName": "joinButtonClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Xarvis_Framwork.XarvisEventNameType.Type) -> Xarvis_Framwork.XarvisEventNameType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XarvisEventNameType",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                    "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XarvisEventNameType",
+                        "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                        "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15Xarvis_Framwork0A13EventNameTypeO15joinButtonClickyA2CmF",
+            "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO15joinButtonClickyA2CmF",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "xarvisError",
+            "printedName": "xarvisError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Xarvis_Framwork.XarvisEventNameType.Type) -> Xarvis_Framwork.XarvisEventNameType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XarvisEventNameType",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                    "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XarvisEventNameType",
+                        "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                        "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15Xarvis_Framwork0A13EventNameTypeO11xarvisErroryA2CmF",
+            "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO11xarvisErroryA2CmF",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uknown",
+            "printedName": "uknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Xarvis_Framwork.XarvisEventNameType.Type) -> (Swift.String) -> Xarvis_Framwork.XarvisEventNameType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> Xarvis_Framwork.XarvisEventNameType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XarvisEventNameType",
+                        "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                        "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XarvisEventNameType",
+                        "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                        "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15Xarvis_Framwork0A13EventNameTypeO6uknownyACSScACmF",
+            "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO6uknownyACSScACmF",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15Xarvis_Framwork0A13EventNameTypeO8rawValueSSvp",
+            "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO8rawValueSSvp",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15Xarvis_Framwork0A13EventNameTypeO8rawValueSSvg",
+                "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO8rawValueSSvg",
+                "moduleName": "Xarvis_Framwork",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XarvisEventNameType",
+                "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15Xarvis_Framwork0A13EventNameTypeO4fromACSS_tcfc",
+            "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO4fromACSS_tcfc",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15Xarvis_Framwork0A13EventNameTypeO",
+        "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO",
+        "moduleName": "Xarvis_Framwork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AdSupport",
         "printedName": "AdSupport",
         "declKind": "Import",
@@ -400,121 +711,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "XarvisViewDelegate",
-        "printedName": "XarvisViewDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "showAlertMessage",
-            "printedName": "showAlertMessage(message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15Xarvis_Framwork0A12ViewDelegateP16showAlertMessage7messageySS_tF",
-            "mangledName": "$s15Xarvis_Framwork0A12ViewDelegateP16showAlertMessage7messageySS_tF",
-            "moduleName": "Xarvis_Framwork",
-            "genericSig": "<τ_0_0 where τ_0_0 : Xarvis_Framwork.XarvisViewDelegate>",
-            "sugared_genericSig": "<Self where Self : Xarvis_Framwork.XarvisViewDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:15Xarvis_Framwork0A12ViewDelegateP",
-        "mangledName": "$s15Xarvis_Framwork0A12ViewDelegateP",
-        "moduleName": "Xarvis_Framwork",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "XarvisChannel",
-        "printedName": "XarvisChannel",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getEvent",
-            "printedName": "getEvent(eventname:params:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15Xarvis_Framwork0A7ChannelP8getEvent9eventname6paramsySS_SDySSypGSgtF",
-            "mangledName": "$s15Xarvis_Framwork0A7ChannelP8getEvent9eventname6paramsySS_SDySSypGSgtF",
-            "moduleName": "Xarvis_Framwork",
-            "genericSig": "<τ_0_0 where τ_0_0 : Xarvis_Framwork.XarvisChannel>",
-            "sugared_genericSig": "<Self where Self : Xarvis_Framwork.XarvisChannel>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:15Xarvis_Framwork0A7ChannelP",
-        "mangledName": "$s15Xarvis_Framwork0A7ChannelP",
-        "moduleName": "Xarvis_Framwork",
-        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
-        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "XarvisView",
         "printedName": "XarvisView",
         "children": [
@@ -537,8 +733,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -635,8 +832,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -733,8 +931,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -831,8 +1030,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -912,29 +1112,43 @@
           },
           {
             "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
+            "name": "postBody",
+            "printedName": "postBody",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any Xarvis_Framwork.XarvisViewDelegate)?"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvp",
-            "mangledName": "$s15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvp",
+            "usr": "s:15Xarvis_Framwork0A4ViewC8postBodySDyS2SGvp",
+            "mangledName": "$s15Xarvis_Framwork0A4ViewC8postBodySDyS2SGvp",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
-              "ReferenceOwnership",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -944,22 +1158,28 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any Xarvis_Framwork.XarvisViewDelegate)?",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "XarvisViewDelegate",
-                        "printedName": "any Xarvis_Framwork.XarvisViewDelegate",
-                        "usr": "s:15Xarvis_Framwork0A12ViewDelegateP"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
-                    "usr": "s:Sq"
+                    "usr": "s:SD"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvg",
-                "mangledName": "$s15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvg",
+                "usr": "s:15Xarvis_Framwork0A4ViewC8postBodySDyS2SGvg",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC8postBodySDyS2SGvg",
                 "moduleName": "Xarvis_Framwork",
                 "implicit": true,
                 "declAttributes": [
@@ -979,22 +1199,28 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any Xarvis_Framwork.XarvisViewDelegate)?",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "XarvisViewDelegate",
-                        "printedName": "any Xarvis_Framwork.XarvisViewDelegate",
-                        "usr": "s:15Xarvis_Framwork0A12ViewDelegateP"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
-                    "usr": "s:Sq"
+                    "usr": "s:SD"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvs",
-                "mangledName": "$s15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvs",
+                "usr": "s:15Xarvis_Framwork0A4ViewC8postBodySDyS2SGvs",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC8postBodySDyS2SGvs",
                 "moduleName": "Xarvis_Framwork",
                 "implicit": true,
                 "declAttributes": [
@@ -1014,8 +1240,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvM",
-                "mangledName": "$s15Xarvis_Framwork0A4ViewC8delegateAA0aC8Delegate_pSgvM",
+                "usr": "s:15Xarvis_Framwork0A4ViewC8postBodySDyS2SGvM",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC8postBodySDyS2SGvM",
                 "moduleName": "Xarvis_Framwork",
                 "implicit": true,
                 "declAttributes": [
@@ -1027,8 +1253,8 @@
           },
           {
             "kind": "Var",
-            "name": "xarvisChannel",
-            "printedName": "xarvisChannel",
+            "name": "channel",
+            "printedName": "channel",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1037,14 +1263,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvp",
-            "mangledName": "$s15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvp",
+            "usr": "s:15Xarvis_Framwork0A4ViewC7channelAA0A7Channel_pSgvp",
+            "mangledName": "$s15Xarvis_Framwork0A4ViewC7channelAA0A7Channel_pSgvp",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "RawDocComment"
@@ -1073,8 +1300,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvg",
-                "mangledName": "$s15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvg",
+                "usr": "s:15Xarvis_Framwork0A4ViewC7channelAA0A7Channel_pSgvg",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC7channelAA0A7Channel_pSgvg",
                 "moduleName": "Xarvis_Framwork",
                 "implicit": true,
                 "declAttributes": [
@@ -1108,8 +1335,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvs",
-                "mangledName": "$s15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvs",
+                "usr": "s:15Xarvis_Framwork0A4ViewC7channelAA0A7Channel_pSgvs",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC7channelAA0A7Channel_pSgvs",
                 "moduleName": "Xarvis_Framwork",
                 "implicit": true,
                 "declAttributes": [
@@ -1129,8 +1356,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvM",
-                "mangledName": "$s15Xarvis_Framwork0A4ViewC13xarvisChannelAA0aE0_pSgvM",
+                "usr": "s:15Xarvis_Framwork0A4ViewC7channelAA0A7Channel_pSgvM",
+                "mangledName": "$s15Xarvis_Framwork0A4ViewC7channelAA0A7Channel_pSgvM",
                 "moduleName": "Xarvis_Framwork",
                 "implicit": true,
                 "declAttributes": [
@@ -1176,11 +1403,36 @@
             "mangledName": "$s15Xarvis_Framwork0A4ViewC5frame11mediaUserId0E4UUIDACSo6CGRectV_S2Stcfc",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadWebView",
+            "printedName": "loadWebView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15Xarvis_Framwork0A4ViewC07loadWebC0yyF",
+            "mangledName": "$s15Xarvis_Framwork0A4ViewC07loadWebC0yyF",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -1270,6 +1522,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override",
@@ -1305,6 +1558,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1341,6 +1595,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1353,6 +1608,7 @@
         "mangledName": "$s15Xarvis_Framwork0A4ViewC",
         "moduleName": "Xarvis_Framwork",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -1367,6 +1623,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1441,6 +1711,201 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Xarvis_Framwork"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "Xarvis_Framwork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XarvisChannel",
+        "printedName": "XarvisChannel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleLogEvent",
+            "printedName": "handleLogEvent(key:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15Xarvis_Framwork0A7ChannelP14handleLogEvent3key10parametersySS_SDySSypGSgtF",
+            "mangledName": "$s15Xarvis_Framwork0A7ChannelP14handleLogEvent3key10parametersySS_SDySSypGSgtF",
+            "moduleName": "Xarvis_Framwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : Xarvis_Framwork.XarvisChannel>",
+            "sugared_genericSig": "<Self where Self : Xarvis_Framwork.XarvisChannel>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleEvent",
+            "printedName": "handleEvent(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XarvisEventNameType",
+                "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15Xarvis_Framwork0A7ChannelP11handleEvent3key5valueyAA0aE8NameTypeO_yptF",
+            "mangledName": "$s15Xarvis_Framwork0A7ChannelP11handleEvent3key5valueyAA0aE8NameTypeO_yptF",
+            "moduleName": "Xarvis_Framwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : Xarvis_Framwork.XarvisChannel>",
+            "sugared_genericSig": "<Self where Self : Xarvis_Framwork.XarvisChannel>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleLogEvent",
+            "printedName": "handleLogEvent(key:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XarvisEventNameType",
+                "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15Xarvis_Framwork0A7ChannelPAAE14handleLogEvent3key10parametersyAA0aF8NameTypeO_SDySSypGSgtF",
+            "mangledName": "$s15Xarvis_Framwork0A7ChannelPAAE14handleLogEvent3key10parametersyAA0aF8NameTypeO_SDySSypGSgtF",
+            "moduleName": "Xarvis_Framwork",
+            "genericSig": "<τ_0_0 where τ_0_0 : Xarvis_Framwork.XarvisChannel>",
+            "sugared_genericSig": "<Self where Self : Xarvis_Framwork.XarvisChannel>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15Xarvis_Framwork0A7ChannelP",
+        "mangledName": "$s15Xarvis_Framwork0A7ChannelP",
+        "moduleName": "Xarvis_Framwork",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1454,7 +1919,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(mediaUserId:mediaUUID:isTestMode:isShowProgress:progressColor:queryString:)",
+            "printedName": "init(mediaUserId:mediaUUID:isTestMode:isShowProgress:progressColor:queryString:postBody:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1501,46 +1966,40 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15Xarvis_Framwork0A14ViewControllerC11mediaUserId0E4UUID10isTestMode0I12ShowProgress13progressColor11queryStringACSS_SSS2bSo7UIColorCSStcfc",
-            "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC11mediaUserId0E4UUID10isTestMode0I12ShowProgress13progressColor11queryStringACSS_SSS2bSo7UIColorCSStcfc",
+            "usr": "s:15Xarvis_Framwork0A14ViewControllerC11mediaUserId0E4UUID10isTestMode0I12ShowProgress13progressColor11queryString8postBodyACSS_SSS2bSo7UIColorCSSSDyS2SGtcfc",
+            "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC11mediaUserId0E4UUID10isTestMode0I12ShowProgress13progressColor11queryString8postBodyACSS_SSS2bSo7UIColorCSSSDyS2SGtcfc",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "showAlertMessage",
-            "printedName": "showAlertMessage(message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15Xarvis_Framwork0A14ViewControllerC16showAlertMessage7messageySS_tF",
-            "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC16showAlertMessage7messageySS_tF",
-            "moduleName": "Xarvis_Framwork",
-            "declAttributes": [
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -1564,6 +2023,7 @@
             "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC14connectChannel8delegateyAA0aF0_p_tF",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -1590,6 +2050,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -1647,6 +2108,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1658,6 +2120,7 @@
         "mangledName": "$s15Xarvis_Framwork0A14ViewControllerC",
         "moduleName": "Xarvis_Framwork",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -1673,10 +2136,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "XarvisViewDelegate",
-            "printedName": "XarvisViewDelegate",
-            "usr": "s:15Xarvis_Framwork0A12ViewDelegateP",
-            "mangledName": "$s15Xarvis_Framwork0A12ViewDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1748,137 +2218,130 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
       "kind": "StringLiteral",
       "offset": 70,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/LeakAvoider.swift",
-      "kind": "StringLiteral",
-      "offset": 700,
-      "length": 11,
-      "value": "\"Xarvis_Framwork.LeakAvoider\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/ErrorLog.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/ErrorLog.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 12,
       "value": "\"Xarvis_iOS\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/URL.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/URL.swift",
       "kind": "StringLiteral",
       "offset": 63,
       "length": 37,
       "value": "\"https:\/\/webview.wallas.cc\/offerwall\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/URL.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/URL.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 33,
       "value": "\"https:\/\/web.xarvis.kr\/offerwall\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2297,
+      "offset": 1287,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2466,
+      "offset": 1456,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "StringLiteral",
-      "offset": 2737,
+      "offset": 1727,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "kind": "Dictionary",
+      "offset": 1921,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3311,
+      "offset": 2612,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3317,
+      "offset": 2618,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3327,
+      "offset": 2628,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3338,
+      "offset": 2639,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
-      "kind": "StringLiteral",
-      "offset": 2057,
-      "length": 10,
-      "value": "\"Xarvis_Framwork.XarvisView\""
-    },
-    {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1638,
+      "offset": 1919,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1676,
+      "offset": 1957,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1752,
+      "offset": 2033,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kimdaehee\/Documents\/CashWalk\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 660,
-      "length": 20,
-      "value": "\"Xarvis_Framwork.XarvisViewController\""
+      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "kind": "Dictionary",
+      "offset": 2074,
+      "length": 3,
+      "value": "[]"
     }
   ]
 }

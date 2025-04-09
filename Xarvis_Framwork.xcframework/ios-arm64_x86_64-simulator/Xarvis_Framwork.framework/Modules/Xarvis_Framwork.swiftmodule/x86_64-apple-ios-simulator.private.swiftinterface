@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Xarvis_Framwork
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AdSupport
 import AppTrackingTransparency
 import Foundation
@@ -14,36 +15,61 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-@objc public class LeakAvoider : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
-  weak public var avoiderDelegate: (any WebKit.WKScriptMessageHandler)?
-  public init(avoiderDelegate: any WebKit.WKScriptMessageHandler)
+@objc @_Concurrency.MainActor @preconcurrency public class LeakAvoider : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor @preconcurrency weak public var avoiderDelegate: (any WebKit.WKScriptMessageHandler)?
+  @_Concurrency.MainActor @preconcurrency public init(avoiderDelegate: any WebKit.WKScriptMessageHandler)
   @objc deinit
-  @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor @preconcurrency @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
 extension Xarvis_Framwork.XarvisView : WebKit.WKScriptMessageHandler {
-  @_Concurrency.MainActor(unsafe) @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor @preconcurrency @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
+public enum XarvisEventNameType {
+  case showAlertMessage
+  case joinButtonClick
+  case xarvisError
+  case uknown(Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+  public init(from string: Swift.String)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class XarvisView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency final public var testMode: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public var isShowProgress: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public var progressColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency final public var queryString: Swift.String
+  @_Concurrency.MainActor @preconcurrency final public var postBody: [Swift.String : Swift.String]
+  @available(*, unavailable, renamed: "xarvisChannel")
+  @_Concurrency.MainActor @preconcurrency weak final public var delegate: (any Xarvis_Framwork.XarvisChannel)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency weak final public var channel: (any Xarvis_Framwork.XarvisChannel)?
+  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect = CGRect(x: 0, y: 0, width: 0, height: 0), mediaUserId: Swift.String, mediaUUID: Swift.String)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency final public func loadWebView()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+}
+public protocol XarvisChannel : ObjectiveC.NSObjectProtocol {
+  func handleLogEvent(key: Swift.String, parameters: [Swift.String : Any]?)
+  func handleEvent(key: Xarvis_Framwork.XarvisEventNameType, value: Any)
+}
+extension Xarvis_Framwork.XarvisChannel {
+  public func handleLogEvent(key: Xarvis_Framwork.XarvisEventNameType, parameters: [Swift.String : Any]?)
+  @available(*, unavailable, renamed: "handleLogEvent", message: "getEvent가 handleLogEvent로 이름이 변경되었습니다.")
+  public func getEvent(eventname: Swift.String, params: [Swift.String : Any]?)
+}
+@available(*, unavailable, renamed: "XarvisChannel", message: "XarvisViewDelegate가 XarvisChannel로 통합되었습니다.")
 public protocol XarvisViewDelegate : AnyObject {
   func showAlertMessage(message: Swift.String)
 }
-public protocol XarvisChannel : ObjectiveC.NSObjectProtocol {
-  func getEvent(eventname: Swift.String, params: [Swift.String : Any]?)
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class XarvisView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) final public var testMode: Swift.Bool
-  @_Concurrency.MainActor(unsafe) final public var isShowProgress: Swift.Bool
-  @_Concurrency.MainActor(unsafe) final public var progressColor: UIKit.UIColor
-  @_Concurrency.MainActor(unsafe) final public var queryString: Swift.String
-  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any Xarvis_Framwork.XarvisViewDelegate)?
-  @_Concurrency.MainActor(unsafe) weak final public var xarvisChannel: (any Xarvis_Framwork.XarvisChannel)?
-  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect = CGRect(x: 0, y: 0, width: 0, height: 0), mediaUserId: Swift.String, mediaUUID: Swift.String)
-  @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class XarvisViewController : UIKit.UIViewController, Xarvis_Framwork.XarvisViewDelegate {
-  @_Concurrency.MainActor(unsafe) public init(mediaUserId: Swift.String, mediaUUID: Swift.String, isTestMode: Swift.Bool = false, isShowProgress: Swift.Bool = true, progressColor: UIKit.UIColor = .blue, queryString: Swift.String = "")
-  @_Concurrency.MainActor(unsafe) public func showAlertMessage(message: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func connectChannel(delegate: any Xarvis_Framwork.XarvisChannel)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class XarvisViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public init(mediaUserId: Swift.String, mediaUUID: Swift.String, isTestMode: Swift.Bool = false, isShowProgress: Swift.Bool = true, progressColor: UIKit.UIColor = .blue, queryString: Swift.String = "", postBody: [Swift.String : Swift.String] = [:])
+  @available(*, unavailable, renamed: "connectChannel", message: "connectChannel으로 기능이 통합되었습니다.")
+  @_Concurrency.MainActor @preconcurrency public func showAlertMessage(message: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func connectChannel(delegate: any Xarvis_Framwork.XarvisChannel)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
+extension Xarvis_Framwork.LeakAvoider : Swift.Sendable {}
