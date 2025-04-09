@@ -329,6 +329,9 @@ SWIFT_CLASS("_TtC15Xarvis_Framwork11LeakAvoider")
 
 
 
+
+
+
 @class NSCoder;
 @class NSString;
 
@@ -371,6 +374,8 @@ SWIFT_CLASS("_TtC15Xarvis_Framwork10XarvisView")
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
 
+
+
 @class NSBundle;
 
 /// XarvisView를 내부에 선언한 UIViewController class 입니다.
@@ -382,7 +387,8 @@ SWIFT_CLASS("_TtC15Xarvis_Framwork10XarvisView")
 ///         mediaUserId: mediaUserId,
 ///         mediaUUID: mediaUUID,
 ///         isTestMode: isTestMode,
-///         isShowProgress: true
+///         isShowProgress: true,
+///         showBroadcast: false,
 ///         progressColor: UIColor.yelloCW,
 ///         queryString: "?quiz=1234",
 ///         postBody: ["isDemoUser": true]
@@ -740,6 +746,9 @@ SWIFT_CLASS("_TtC15Xarvis_Framwork11LeakAvoider")
 
 
 
+
+
+
 @class NSCoder;
 @class NSString;
 
@@ -782,6 +791,8 @@ SWIFT_CLASS("_TtC15Xarvis_Framwork10XarvisView")
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
 
+
+
 @class NSBundle;
 
 /// XarvisView를 내부에 선언한 UIViewController class 입니다.
@@ -793,7 +804,8 @@ SWIFT_CLASS("_TtC15Xarvis_Framwork10XarvisView")
 ///         mediaUserId: mediaUserId,
 ///         mediaUUID: mediaUUID,
 ///         isTestMode: isTestMode,
-///         isShowProgress: true
+///         isShowProgress: true,
+///         showBroadcast: false,
 ///         progressColor: UIColor.yelloCW,
 ///         queryString: "?quiz=1234",
 ///         postBody: ["isDemoUser": true]

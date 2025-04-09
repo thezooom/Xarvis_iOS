@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Xarvis_Framwork-Swift.h</key>
 		<data>
-		tbT09KpSoIWWmcJ1S4i5UmmumS8=
+		TpzGs8rqbt1nj9mCLUOz11tjIow=
 		</data>
 		<key>Headers/Xarvis_Framwork.h</key>
 		<data>
@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		50c7SULFBnJL9fZ+dz5T3+z7aQU=
+		EWNKv00gZOt0H9B0MQ1wfOKEg7g=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		J42Izbq6shPtypgBQyPeFUz4Zfs=
+		NOPlMkiPgi55Ovv1u+cC+7YnChk=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XH3QJnIkaQp2a9LeC5KPZ/1u1U0=
+		CJzCDJp6n/ZDk+ZFApt0sb0S40E=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		J42Izbq6shPtypgBQyPeFUz4Zfs=
+		NOPlMkiPgi55Ovv1u+cC+7YnChk=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8CQ+NfwsU054UGIyncPOtSPinW0=
+		ylHgHzzZFV2jafhAVBgJY7W9Um0=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		50c7SULFBnJL9fZ+dz5T3+z7aQU=
+		EWNKv00gZOt0H9B0MQ1wfOKEg7g=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NOQHkxjYWqUDdlkVp7zy4ScQvSc=
+		MVrirLxa6FVxO8EKMEa+njts78U=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fZuNi+c7X18PRbmOaJKZfU9eOGI=
+		ceHWVjetF7D8g6quz1oePP5WgL0=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NOQHkxjYWqUDdlkVp7zy4ScQvSc=
+		MVrirLxa6FVxO8EKMEa+njts78U=
 		</data>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nDqcndWAt6Ex/w6igSIzQEIGVwU=
+		Lp5OeL9jzkLYXN6v37TXojLIoM4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W73x8txxfYCNmF1IH60tO1WNVfF29PpSAUAJTjAa0kE=
+			PyB891GLSIymPo8xfQuzWfhY58pQzC2Tl2r2pwU9qMU=
 			</data>
 		</dict>
 		<key>Headers/Xarvis_Framwork.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HjzQ0UTrpvv9i2f2qsnBGv7AtGnl1vG2w4C9bQxQuZM=
+			j8yHsLdNuA/Gph2GOLtnKA9Xpw9zfpGvOMHdjWXI2l8=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gW4ktj9pKrJuuKqGviSpMkvRgstaNB0i1ZeKB95D3vw=
+			e7FkTG0Wh7UrDh96T4jGAtaT/iiolBplEirgFS0pd+k=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			irjfPwWTbMBWUQDljjvZY6g8puw0HE4N+N33Qs5oaD4=
+			9x5sjGkiyL9MBN1ngHRrFno66EQAopoeE/bg2ztHNXc=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gW4ktj9pKrJuuKqGviSpMkvRgstaNB0i1ZeKB95D3vw=
+			e7FkTG0Wh7UrDh96T4jGAtaT/iiolBplEirgFS0pd+k=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C7v5sQnHSxdgUvk8KSem/Do4w7Osl5L3siGsXTwNpyk=
+			qoOEZwFbqSYwC7lUeofb9pqDLwnbr5fYbnD2MrmWo5g=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HjzQ0UTrpvv9i2f2qsnBGv7AtGnl1vG2w4C9bQxQuZM=
+			j8yHsLdNuA/Gph2GOLtnKA9Xpw9zfpGvOMHdjWXI2l8=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7MAjnp77JN40xGJEYwWqNiCR89tEwZLnUqSetEzlkO0=
+			6vVQyRXzMLAl2HDX5/X0r6RsqpFdwAQO6mMdmLjYDdA=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NPKF3EY3J7pcgE5YfH7TTsui716j/G/iuyxdm/w+a4M=
+			96pfPdOy1z0M/EBJqgpqlU3j+zVrAQc7WPZE+bwQHpM=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7MAjnp77JN40xGJEYwWqNiCR89tEwZLnUqSetEzlkO0=
+			6vVQyRXzMLAl2HDX5/X0r6RsqpFdwAQO6mMdmLjYDdA=
 			</data>
 		</dict>
 		<key>Modules/Xarvis_Framwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zg5AeAmA2/Ng9JykVY2gsPDcZvzuvU+v0fe3Cg1qc4k=
+			GN+iD8QedXFnX1yTQrTSFlXAq0SdSAoq6cBCtpPoMoo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
