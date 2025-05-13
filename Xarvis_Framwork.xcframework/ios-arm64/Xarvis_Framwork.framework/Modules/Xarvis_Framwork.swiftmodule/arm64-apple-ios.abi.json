@@ -281,6 +281,46 @@
           },
           {
             "kind": "Var",
+            "name": "goToLoginButtonClick",
+            "printedName": "goToLoginButtonClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Xarvis_Framwork.XarvisEventNameType.Type) -> Xarvis_Framwork.XarvisEventNameType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XarvisEventNameType",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                    "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Xarvis_Framwork.XarvisEventNameType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XarvisEventNameType",
+                        "printedName": "Xarvis_Framwork.XarvisEventNameType",
+                        "usr": "s:15Xarvis_Framwork0A13EventNameTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15Xarvis_Framwork0A13EventNameTypeO20goToLoginButtonClickyA2CmF",
+            "mangledName": "$s15Xarvis_Framwork0A13EventNameTypeO20goToLoginButtonClickyA2CmF",
+            "moduleName": "Xarvis_Framwork",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "joinButtonClick",
             "printedName": "joinButtonClick",
             "children": [
@@ -2567,322 +2607,322 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
       "kind": "StringLiteral",
       "offset": 70,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/GlobalDefine.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/ErrorLog.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/ErrorLog.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 12,
       "value": "\"Xarvis_iOS\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/URL.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/URL.swift",
       "kind": "StringLiteral",
       "offset": 63,
       "length": 37,
       "value": "\"https:\/\/webview.wallas.cc\/offerwall\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/URL.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Shared\/URL.swift",
       "kind": "StringLiteral",
       "offset": 129,
       "length": 33,
       "value": "\"https:\/\/web.xarvis.kr\/offerwall\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1235,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1269,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1392,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1469,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1573,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
       "kind": "StringLiteral",
       "offset": 4679,
       "length": 15,
       "value": "\"m.hnsmall.com\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
       "kind": "StringLiteral",
       "offset": 4740,
       "length": 11,
       "value": "\"grip.show\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
       "kind": "StringLiteral",
       "offset": 4806,
       "length": 13,
       "value": "\"twitter.com\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
       "kind": "StringLiteral",
       "offset": 4874,
       "length": 9,
       "value": "\"line.me\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
       "kind": "StringLiteral",
       "offset": 4921,
       "length": 9,
       "value": "\"band.us\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
       "kind": "StringLiteral",
       "offset": 4972,
       "length": 16,
       "value": "\"m.facebook.com\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLive+Webkit.swift",
       "kind": "StringLiteral",
       "offset": 5215,
       "length": 28,
       "value": "\"product.shoppinglive.naver\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "BooleanLiteral",
       "offset": 255,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "BooleanLiteral",
       "offset": 504,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 82,
       "value": "\"방송 정보를 찾을 수 없습니다.\n잠시 후 다시 시도해 주세요\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 688,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 733,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 822,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 863,
       "length": 3,
       "value": "144"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 867,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 879,
       "length": 3,
       "value": "145"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 883,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 894,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 898,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/MoneyLive\/MoneyLiveErrorView.swift",
       "kind": "IntegerLiteral",
       "offset": 910,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
       "offset": 1287,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
       "offset": 1456,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "StringLiteral",
       "offset": 1727,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
       "offset": 1882,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "Dictionary",
       "offset": 2079,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "IntegerLiteral",
       "offset": 2944,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "IntegerLiteral",
       "offset": 2950,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "IntegerLiteral",
       "offset": 2960,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "IntegerLiteral",
       "offset": 2971,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
       "offset": 4668,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2296,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2334,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2370,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "StringLiteral",
       "offset": 2447,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/Xarvis_Test\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisViewController.swift",
       "kind": "Dictionary",
       "offset": 2488,
       "length": 3,

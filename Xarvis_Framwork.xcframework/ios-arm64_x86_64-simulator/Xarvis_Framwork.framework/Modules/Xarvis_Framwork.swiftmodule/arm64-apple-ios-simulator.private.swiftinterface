@@ -30,6 +30,7 @@ public protocol XarvisViewDelegate : AnyObject {
 }
 public enum XarvisEventNameType {
   case showAlertMessage
+  case goToLoginButtonClick
   case joinButtonClick
   case shouldDisableTopTab(Swift.Bool)
   case xarvisError
