@@ -1887,7 +1887,7 @@
           {
             "kind": "Function",
             "name": "loadWebView",
-            "printedName": "loadWebView(allowQuery:)",
+            "printedName": "loadWebView(allowQuery:mediaUserId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1900,11 +1900,26 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15Xarvis_Framwork0A4ViewC07loadWebC010allowQueryySb_tF",
-            "mangledName": "$s15Xarvis_Framwork0A4ViewC07loadWebC010allowQueryySb_tF",
+            "usr": "s:15Xarvis_Framwork0A4ViewC07loadWebC010allowQuery11mediaUserIdySb_SSSgtF",
+            "mangledName": "$s15Xarvis_Framwork0A4ViewC07loadWebC010allowQuery11mediaUserIdySb_SSSgtF",
             "moduleName": "Xarvis_Framwork",
             "declAttributes": [
               "Final",
@@ -2889,7 +2904,7 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/자비스\/XarvisSPM_iOS\/Sources\/Xarvis_iOS\/Xarvis\/XarvisView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4668,
+      "offset": 4955,
       "length": 4,
       "value": "true"
     },

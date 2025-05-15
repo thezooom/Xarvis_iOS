@@ -60,7 +60,7 @@ public struct XarvisMoneyLiveAsset {
   @_Concurrency.MainActor @preconcurrency weak final public var channel: (any Xarvis_Framwork.XarvisChannel)?
   @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect = CGRect(x: 0, y: 0, width: 0, height: 0), mediaUserId: Swift.String, mediaUUID: Swift.String)
   @objc deinit
-  @_Concurrency.MainActor @preconcurrency final public func loadWebView(allowQuery: Swift.Bool = true)
+  @_Concurrency.MainActor @preconcurrency final public func loadWebView(allowQuery: Swift.Bool = true, mediaUserId: Swift.String? = nil)
   @_Concurrency.MainActor @preconcurrency @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
 }
 extension Xarvis_Framwork.XarvisView : WebKit.WKScriptMessageHandler {
