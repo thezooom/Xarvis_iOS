@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Xarvis_iOS'
-  s.version          = '0.4.15'
+  s.version          = '0.4.16'
   s.summary          = 'Xarvis_Framwork.xcframework'
   s.homepage         = 'https://github.com/thezooom/Xarvis_iOS'
 
